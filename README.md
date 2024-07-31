@@ -15,7 +15,10 @@ This project is a smart home system using Raspberry Pi Zero and ESP32 devices. T
 ## Repositories
 This repository uses submodules for different components:
 
-- [ESP32 Devices](submodules/esp32)
+- [ESP32-1 Environment Sensors](submodules/esp32-1-environment)
+- [ESP32-2 Security Sensors](submodules/esp32-2-security)
+- [ESP32-3 Control and Actuation](submodules/esp32-3-control-actuation)
+- [ESP32-4 Energy Management](submodules/esp32-4-energy-management)
 - [Raspberry Pi Zero](submodules/raspberry-pi)
 - [Frontend Application](submodules/frontend)
 - [Backend Application](submodules/backend)
