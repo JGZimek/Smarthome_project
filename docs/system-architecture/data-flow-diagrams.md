@@ -5,7 +5,7 @@
 ```mermaid
 flowchart LR
     ESP1[ESP32-1 Environment Sensors] -->|Temperature, Humidity, Light Data| MQTT[MQTT Broker]
-    ESP2[ESP32-2 Security Sensors] -->|Motion, Door/Window Status Data| MQTT
+    ESP2[ESP32-2 Security System] -->|Motion, Door/Window Status Data| MQTT
     ESP4[ESP32-4 Energy Management] -->|Energy Consumption Data| MQTT
     MQTT -->|Sensor Data| Backend[Backend]
     Backend -->|Processed Data| Frontend[Frontend]

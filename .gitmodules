@@ -1,0 +1,3 @@
+[submodule "submodules/esp32-2-security"]
+	path = submodules/esp32-2-security
+	url = https://github.com/JGZimek/Security_system_ESP32.git
